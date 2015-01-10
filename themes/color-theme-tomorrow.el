@@ -188,7 +188,7 @@ names to which it refers are bound."
      (cursor ((,class (:background ,red))))
      (fringe ((,class (:background ,current-line))))
      ;;(linum ((,class (:background ,current-line))))
-     (linum ((,class (:foreground ,current-line))))
+     (linum ((,class (:foreground ,comment))))
      (hl-line ((,class (:background ,current-line))))
      (border ((,class (:background ,current-line))))
      (border-glyph ((,class (nil))))
@@ -202,7 +202,7 @@ names to which it refers are bound."
      (mode-line-emphasis ((,class (:foreground ,foreground :slant italic))))
      (mode-line-highlight ((,class (:foreground ,purple :box nil :weight bold))))
      (minibuffer-prompt ((,class (:foreground ,blue))))
-     (region ((,class (:background ,selection))))
+     (region ((,class (:background ,"#626242"))))
      (secondary-selection ((,class (:background ,current-line))))
 
      (header-line ((,class (:inherit mode-line :foreground ,purple :background nil))))
